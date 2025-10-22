@@ -15,22 +15,23 @@ class SanPham:
         print(f'Giảm giá: {self.__giam_gia}')
     # phuong thuc tinh thue nhap khau
     def tinh_thue_nhap_khau(self):
-        return self.__gia * 0.1
+        thue = (self.__gia * 0.1)
+        print(f'Thuế nhập khẩu: {thue}')
     # phuong thuc get_ten
     def get_ten(self):
         return self.__ten
     # phuong thuc set_ten
-    def set_ten(self):
+    def set_ten(self, ten):
         self.__ten = ten
     # phuong thuc get_gia
     def get_gia(self):
         return self.__gia
     # phuong thuc set_gia
-    def set_gia(self):
+    def set_gia(self, gia):
         self.__gia = gia
     # phuong thuc get_giam_gia
     def get_giam_gia(self):
         return self.__giam_gia
     # phuong thuc set_giam_gia
-    def set_giam_gia(self):
+    def set_giam_gia(self, giam_gia):
         self.__giam_gia = giam_gia

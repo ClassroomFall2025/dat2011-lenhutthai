@@ -11,6 +11,6 @@ class ChuNhat:
         print(f'Chieu rong: {self.rong}')
         print(f'Chu vi: {self.chuvi()}')
         print(f'Dien tich: {self.dientich()}')
-class HinhVuong(ChuNhat):
+class Vuong(ChuNhat):
     def __init__(self, rong, dai):
         super().__init__(rong, dai)
